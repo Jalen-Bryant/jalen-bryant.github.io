@@ -1,0 +1,101 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image:url("NYC_Header-100-scaled.jpg");
+    background:linear-gradient(#000000, #0000004d), url("NYC_Header-100-scaled.jpg");
+    background-size: cover;
+    min-height: 100%;
+}
+
+nav {
+    padding-bottom: 15px;
+}
+
+ul {
+    display: inline-block;
+    position: relative;
+    overflow:visible
+}
+
+header {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+}
+
+header h1 {
+    padding: 20px 0 10px 0;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Brush Script MT';
+    display: inline-block;
+    position: relative;
+    margin: 0 30px;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+    position: relative;
+}
+
+.content section {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    position: relative;
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius: 25px;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.content li {
+    margin: 10px 0 0 30px;
+
+}
+
+#google {
+    background-color: #333333;
+    border-radius: 25px;
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+#google:hover {
+    background-color: rgb(126, 126, 126);
+}
+
+section img {
+    border-radius: 25px;
+    max-width: 600px;
+}
+
+footer {
+    background-color: #333333;
+    padding: 30px 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    text-align: center;
+}
