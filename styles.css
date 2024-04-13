@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "montserrat";
+    src:    url(Fonts/Montserrat/montserrat-variablefont_wght-webfont.woff2) format(woff2),
+            url(Fonts/Montserrat/montserrat-variablefont_wght-webfont.woff) format(woff),
+            url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format(truetype);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(125deg, #e66465, #9198e5);
+    background-attachment: fixed;
+    margin-bottom: 200px;
+}
+
+header {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position:fixed;
+    z-index: 8;
+    top: 0px;
+}
+
+header h2 {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    min-width: 314px;
+    z-index: inherit;
+}
+
+header div {
+    height: 0.1;
+    max-width: 500px;
+    min-width: 10px;
+    display: block;
+    z-index: inherit;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 2px;
+    z-index: inherit;
+    border: 2px rgba(255, 255, 255, 0.308) solid;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+header > nav > ul > li:hover {
+    border: 2px rgba(255, 255, 255, 0.13) solid;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+header > nav {
+    display: inline-block;
+    word-spacing: 20px;
+    min-width: 314px;
+    z-index: 9;
+    margin-top: 10px;
+}
+
+.intro-section {
+    text-align: center;
+}
+
+.intro-section p {
+    text-align: justify;
+}
+
+.intro-section h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px auto;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;;
+}
+
+p {
+    font-weight: 500;
+}
+
+.content {
+    max-width: 1325px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 5px 20px 20px 20px;
+    overflow: hidden;
+    height: auto;
+    top: 120px;
+}
+
+.content p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+th, td {
+    border: black solid 2px;
+    border-collapse: collapse;
+    max-width: 500px;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    display: inline-block;
+    position: relative;
+    max-width: 963px;
+}
+
+td {
+    font-weight: 500;
+}
+
+.left-column {
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+.middle-column {
+    line-height: 2;
+}
+
+.html-img {
+    position: absolute;
+    float: right;
+    margin-right: 40px;
+    margin-left: 50px;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.html-img img {
+    max-width: 300px;
+    overflow: hidden;
+    height: auto;
+    overflow: hidden;
+}
+
+nav img {
+    width: 10px;
+    height: auto;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.html-content {
+    overflow: hidden;
+}
+
+.bold {
+    font-weight: 900;
+}
