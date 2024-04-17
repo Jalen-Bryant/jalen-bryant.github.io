@@ -46,6 +46,7 @@ header div {
     z-index: inherit;
 }
 
+/* Obsolete - remove once all nav items have links */
 header > nav > ul > li {
     display: inline-block;
     font-weight: 500;
@@ -57,13 +58,32 @@ header > nav > ul > li {
     font-size: 13px;
 }
 
+/* new */
+header > nav > ul > a > li {
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 2px;
+    z-index: inherit;
+    border: 2px rgba(255, 255, 255, 0.308) solid;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+/* Obsolete - remove once all nav items have links */
 header > nav > ul > li:hover {
     border: 2px rgba(255, 255, 255, 0.13) solid;
 }
 
+/* new */
+header > nav > ul > a > li:hover {
+    border: 2px rgba(255, 255, 255, 0.13) solid;
+    transform: scale(1.1);
+}
+
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 a:visited {
