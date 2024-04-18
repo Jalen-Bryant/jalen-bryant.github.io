@@ -68,6 +68,7 @@ header > nav > ul > a > li {
     border-radius: 25px;
     padding: 5px 10px;
     font-size: 13px;
+    transition: 0.2s ease-in-out;
 }
 
 /* Obsolete - remove once all nav items have links */
@@ -79,6 +80,7 @@ header > nav > ul > li:hover {
 header > nav > ul > a > li:hover {
     border: 2px rgba(255, 255, 255, 0.13) solid;
     transform: scale(1.1);
+    transition: 0.2s ease-in-out;
 }
 
 a {
